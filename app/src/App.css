@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@300&display=swap');
+
+html{
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(218, 165, 32, 0.5);
+    
+    
+    
+}
+.app{
+    display: block;
+    background-color: white;
+    width: 500px;
+    padding: 50px 20px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(128, 128, 128, 0.3);
+}
+.question-section{
+    display: block;
+    padding: 15px 0px;
+    border-radius: 5px;
+    background-color: white;
+}
+.question-number{
+    display: block;
+    padding: 15px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: white;
+}
+.question-title{
+    display: block;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: white;
+}
+.quiz-answers{
+    border-radius: 5px;
+    background-color: white;
+}
+button, input, option{
+    display: block;
+    width: 250px;
+    padding: 10px 5px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: white;
+}
+button:hover, option:hover{
+background-color: #3d3d3d ;
+cursor: pointer;
+color: white;
+}
+@media screen and (min-width: 501px) and (max-width:650px){
+    .app{
+        width: 400px;
+        padding: 10px 10px;
+    }
+}
+@media screen and (min-width: 360px) and (max-width:500px){
+.app{
+    width: 300px;
+    padding: 10px 10px;
+}
+}
+
+    
